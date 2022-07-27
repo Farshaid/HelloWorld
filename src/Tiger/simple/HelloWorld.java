@@ -36,9 +36,13 @@ public class HelloWorld {
 		list.add("Cats");
 		list.add("Dog");
 		list.add("Horses");
+		String cdf = list.get(2);
+		System.out.println(cdf);
 		
 		System.out.println(list + " The Animals in our Farm");
 		
+		Boolean abc1 = false;
+		System.out.println(!abc1);
 		
 
 	}
